@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-image: url(../img/background.jpg);
+}
+
+a {
+  color: #FF6600;
+}
+
+.div-restart {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 560px;
+  text-align: center;
+}
+
+.div-board {
+  position: absolute;
+  left: 10px;
+  top: 40px;
+}
+
+.div-adsense {
+  position: absolute;
+  left: 10px;
+  top: 420px;
+  width: 560px;
+  text-align: center;
+}
+
+.bunch {
+  position: absolute;
+  overflow: hidden;
+  z-index: 0;
+  border: 1px solid white;
+  color: #FFFFFF;
+  background: transparent;
+  border-radius: 6px;
+}
+
+.card {
+  position: absolute;
+  color: #000000;
+  border-radius: 8px;
+}
+
+.div-addfreestats {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: none;
+}
